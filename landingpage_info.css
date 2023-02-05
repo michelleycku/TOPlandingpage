@@ -1,0 +1,43 @@
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 60;
+
+    background-color: white;
+
+    position: relative;
+    padding-top: 10px;
+    left: 0px;
+    right: 0px;
+}
+
+
+.information_title {
+    color: black; 
+    font-family: Roboto, Arial;
+    font-size: 25px;
+    font-weight: bold; 
+    text-align: center;
+}
+
+.information_wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.information_image {
+    border-color: #3882F6; 
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    width: 100px;
+    height: 100px;
+}
+
+.information_subtext {
+    font-family: Roboto, Arial;
+    width: 100px;
+    text-align: center;
+}
