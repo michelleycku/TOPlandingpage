@@ -1,0 +1,44 @@
+.call_to_action {
+    display: flex;
+    justify-content: center;
+}
+
+.call_to_action_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px; 
+    margin: 50px;
+
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 900px;
+    height: 120px; 
+
+}
+
+.call_to_action_text {
+    display: flex;
+    flex-direction: column;
+}
+.call_to_action_texttitle {
+    font-family: Roboto, Arial;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.call_to_action_subtext {
+    font-family: Roboto, Arial;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.call_to_action_wrapper > button {
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+
+    align-self: center;
+}

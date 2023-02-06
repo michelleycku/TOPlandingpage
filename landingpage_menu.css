@@ -1,5 +1,6 @@
 .menu {
     display: flex;
+    
     background-color: #1F2937;
     color: white;
 
@@ -13,6 +14,7 @@
 
 .menulogo {
     flex: 2; 
+    margin-left: 100px;
 }
 
 .menulink {
